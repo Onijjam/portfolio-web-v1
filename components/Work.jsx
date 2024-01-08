@@ -8,6 +8,7 @@ import 'swiper/css/pagination'
 import {Pagination} from "swiper/modules";
 
 import ProjectCard from "@/components/ProjectCard";
+import {Swiper, SwiperSlide} from "swiper/react";
 
 const projectData = [
     {
@@ -18,7 +19,7 @@ const projectData = [
         link: '/',
     },
     {
-        image: '/work2.png',
+        image: '/work/2.png',
         category: 'react js',
         name: 'InsightEdu',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis',
@@ -29,10 +30,10 @@ const projectData = [
 
 const Work = () => {
     return (
-        <section>
+        <section className={'relative mb-12 xl:mb-48'}>
             <div className={'container mx-auto'}>
                 {/*Text*/}
-                <div className={'max-w-[400px] mx-auto'}>
+                <div className={'max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center xl:items-start'}>
                     <h2 className={'section-title mb-4'}>Derniers Projets</h2>
                     <p className={'subtitle mb-8'}>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -42,6 +43,18 @@ const Work = () => {
                     </Link>
                 </div>
                 {/*Slider*/}
+                <div className={'xl:max-w-[1000px] xl:absolute right-0 top-0'}>
+                    <Swiper className={'h-[480px]'} slidesPerView={1} breakpoints={{640: {
+                        slidesPerView: 2
+                        }
+                    }} spaceBetween={30} modules={[Pagination]} pagination={{clickable: true}}>
+                        {projectData.slice(0,4).map((project, index) => {
+                            return <SwiperSlide key={index}>
+                                <ProjectCard project={project} />
+                            </SwiperSlide>
+                        })}
+                    </Swiper>
+                </div>
             </div>
         </section>
     )
