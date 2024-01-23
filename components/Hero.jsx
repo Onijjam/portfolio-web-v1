@@ -23,7 +23,7 @@ const Hero = () => {
                     <div className={'flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'}>
                         <div className={'text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'}>Ingénieur du numérique</div>
                         <h1 className={'h1 mb-4'}>Bonjour, je suis Gauthier Montagne</h1>
-                        <p className={'subtitle max-w-[490px] mx-auto xl:mx-0'}>Description brève, avec tout un texte sur qui je suis, pourquoi le web et mon engagement dans mon travail (mon bullshit en gros).</p>
+                        <p className={'subtitle max-w-[490px] mx-auto xl:mx-0'}>Ingénieur passionné par le web, je marie créativité technique et engagement fort pour concevoir des expériences en ligne exceptionnelles.</p>
                         {/* Boutons */}
                         <div className={'flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-8'}>
                             <Link href={'/contact'}>
@@ -32,10 +32,12 @@ const Hero = () => {
                                     <Send size={18} />
                                 </Button>
                             </Link>
+                            <a href={"/cv/CV_MONTAGNE_Gauthier.pdf"} download>
                             <Button variant={'secondary'} className={'gap-x-2'}>
                                 Télécharger mon CV
                                 <Download size={18} />
                             </Button>
+                            </a>
                         </div>
                         {/* Socials */}
                         <Socials containerStyles={'flex gap-x-6 mx-auto xl:mx-0'} iconsStyles={'text-foreground text-[36px] hover:text-primary transition-all'}/>

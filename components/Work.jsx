@@ -15,14 +15,14 @@ const projectData = [
         image: '/work/1.png',
         category: 'react js',
         name: 'Murkhasya',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis',
-        link: '/',
+        description: "Site vitrine pour une galerie d'art de Barcelone en partant d'un figma d'un designer.",
+        link: 'https://www.murkhasya.com/',
     },
     {
         image: '/work/2.png',
         category: 'react js',
         name: 'InsightEdu',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quis',
+        description: "SaaS pour une organisation de formation permettant une transition vers le numérique.",
         link: '/',
         github: '/',
     },
@@ -36,9 +36,9 @@ const Work = () => {
                 <div className={'max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center xl:items-start'}>
                     <h2 className={'section-title mb-4'}>Derniers Projets</h2>
                     <p className={'subtitle mb-8'}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Pour se former il faut pratiquer régulièrement.
                     </p>
-                    <Link href={'/projects'}>
+                    <Link href={'/projets'}>
                         <Button>Tous les projets</Button>
                     </Link>
                 </div>
