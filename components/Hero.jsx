@@ -21,7 +21,7 @@ const Hero = () => {
                 <div className={'pl-8 flex justify-between gap-x-8'}>
                     {/* Texte */}
                     <div className={'flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'}>
-                        <div className={'text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'}>Ingénieur du numérique</div>
+                        <div className={'text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'}>Software Engineer Fullstack</div>
                         <h1 className={'h1 mb-4'}>Bonjour, je suis Gauthier Montagne</h1>
                         <p className={'subtitle max-w-[490px] mx-auto xl:mx-0'}>Ingénieur passionné par le web, je marie créativité technique et engagement fort pour concevoir des expériences en ligne exceptionnelles.</p>
                         {/* Boutons */}
@@ -32,11 +32,17 @@ const Hero = () => {
                                     <Send size={18} />
                                 </Button>
                             </Link>
-                            <a href={"/cv/CV_MONTAGNE_Gauthier.pdf"} download>
+                            <a href={"/cv/CV_Gauthier_MONTAGNE_Light_Theme.pdf"} className={"dark:hidden"} download>
                             <Button variant={'secondary'} className={'gap-x-2'}>
                                 Télécharger mon CV
                                 <Download size={18} />
                             </Button>
+                            </a>
+                            <a href={"/cv/CV_Gauthier_MONTAGNE_Dark_Theme.pdf"} className={"hidden dark:block"} download>
+                                <Button variant={'secondary'} className={'gap-x-2'}>
+                                    Télécharger mon CV
+                                    <Download size={18} />
+                                </Button>
                             </a>
                         </div>
                         {/* Socials */}
