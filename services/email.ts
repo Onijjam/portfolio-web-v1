@@ -4,8 +4,6 @@ export async function sendEmail(formData: { name: string, text: string, email: s
     const name = formData.name;
     const email = formData.email;
     const text = formData.text;
-    console.log(process.env.RESEND_KEY);
-    console.log('test serv');
 
     const response = await fetch("https://api.resend.com/emails", {
         method: "POST",
