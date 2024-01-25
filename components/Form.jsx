@@ -34,7 +34,9 @@ const Form = () => {
         if (status === 200){
             setEmailSend(1);
         }
-        console.log(status);
+        else {
+            setEmailSend(2);
+        }
     };
 
 
