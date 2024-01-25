@@ -20,9 +20,9 @@ const projectData = [
     },
     {
         image: '/work/2.png',
-        category: 'react js',
+        category: 'fullstack',
         name: 'InsightEdu',
-        description: "SaaS pour une organisation de formation permettant une transition vers le numérique.",
+        description: "SaaS pour un organisme de formation permettant une transition vers le numérique.",
         link: '/',
         github: '/',
     },
