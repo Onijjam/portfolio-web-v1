@@ -23,8 +23,6 @@ const projectData = [
         category: 'fullstack',
         name: 'InsightEdu',
         description: "SaaS pour un organisme de formation permettant une transition vers le numérique.",
-        link: '/',
-        github: '/',
     },
 ];
 
