@@ -1,5 +1,5 @@
 import DevImg from "./DevImg"
-import {Tabs, TabsContent, TabsList, TabsTrigger} from '@/components/ui/tabs'
+import {Tabs, TabsContent, TabsList, TabsTrigger} from '/components/ui/tabs'
 
 import {User2, MailIcon, PhoneCall, GraduationCap, Briefcase} from "lucide-react";
 import Image from "next/image";

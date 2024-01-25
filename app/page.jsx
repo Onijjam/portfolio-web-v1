@@ -1,9 +1,8 @@
-import Image from 'next/image'
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Quality from "@/components/Quality";
-import Work from "@/components/Work";
-import Cta from "@/components/Cta";
+import Hero from "/components/Hero";
+import About from "/components/About";
+import Quality from "/components/Quality";
+import Work from "/components/Work";
+import Cta from "/components/Cta";
 
 export default function Home() {
   return (

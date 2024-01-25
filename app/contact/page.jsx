@@ -15,7 +15,7 @@ const Contact = () => {
                     </div>
                     <h1 className={'h1 max-w-md mb-8'}>Travaillons ensemble.</h1>
                     <p className={'subtitle max-w-[400px]'}>
-                        N'hésitez pas à me contacter pour discuter de notre avenir ensemble.
+                        N'hésitez pas à me contacter pour discuter de notre avenir.
                     </p>
                 </div>
                 {/* illustration */}
