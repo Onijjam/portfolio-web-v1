@@ -11,7 +11,7 @@ import {
 const qualityData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-        title: 'Organiser',
+        title: 'Organisé',
         description: 'Je mise sur les méthodes agiles et Kanban, avec l\'aide de Notion et Jira, pour gérer mes projets de façon organisée et efficace.',
     },
     {
@@ -21,7 +21,7 @@ const qualityData = [
     },
     {
         icon: <Heart size={72} strokeWidth={0.8} />,
-        title: 'Passionner',
+        title: 'Passionné',
         description: 'Ma passion pour le développement web et le design me permet de donner vie aux idées, transformant les projets en réalités.',
     },
 ]
