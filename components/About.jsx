@@ -81,7 +81,7 @@ const skillData = [
                 name:'Développement Back-end',
             },
             {
-                name:'Javascript, Python',
+                name:'Javascript (React.js, Node/Bun), Python',
             },
             {
                 name:'Frameworks',

@@ -23,7 +23,7 @@ const Hero = () => {
                     <div className={'flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'}>
                         <div className={'text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'}>Software Engineer Fullstack</div>
                         <h1 className={'h1 mb-4'}>Bonjour, je suis Gauthier Montagne</h1>
-                        <p className={'subtitle max-w-[490px] mx-auto xl:mx-0'}>Ingénieur passionné par le web, je marie créativité technique et engagement fort pour concevoir des expériences en ligne exceptionnelles.</p>
+                        <p className={'subtitle max-w-[490px] mx-auto xl:mx-0'}>Ingénieur web passionné, je recherche activement des opportunités pour allier ma créativité technique et mon engagement.</p>
                         {/* Boutons */}
                         <div className={'flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-8'}>
                             <Link href={'/contact'}>
