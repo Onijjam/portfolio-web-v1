@@ -17,6 +17,14 @@ const projectData = [
         name: 'InsightEdu',
         description: "SaaS pour un organisme de formation permettant une transition vers le numérique.",
     },
+    {
+        image: '/work/3.png',
+        category: 'next js',
+        name: 'Portfolio',
+        description: "Réalisation de mon portfolio web afin de me former au framework NEXT JS.",
+        link: 'https://www.g-montagne.com/',
+        github: 'https://github.com/Onijjam/portfolio-web-v1',
+    },
 ];
 
 const uniqueCategories = ['Tous les projets', ...new Set(projectData.map((item) => item.category))];
@@ -37,8 +45,8 @@ const Projects = () => {
             <h2 className={'section-title mb-8 xl:mb-16 text-center mx-auto'}>Mes Projets</h2>
             {/* Tabs */}
             <Tabs defaultValue={category} className={'mb-24 xl:mb-48'}>
-                {/* Edit le md:grid-cols-3 pour le nombre de categories */}
-                <TabsList className={'w-full grid h-full md:grid-cols-3 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none'}>
+                {/* Edit le md:grid-cols-4 pour le nombre de categories */}
+                <TabsList className={'w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none'}>
                     {categories.map((category, index) => {
                         return <TabsTrigger
                             onClick={() => setCategory(category)}

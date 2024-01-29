@@ -24,6 +24,14 @@ const projectData = [
         name: 'InsightEdu',
         description: "SaaS pour un organisme de formation permettant une transition vers le numérique.",
     },
+    {
+        image: '/work/3.png',
+        category: 'next js',
+        name: 'Portfolio',
+        description: "Réalisation de mon portfolio web afin de me former au framework NEXT JS.",
+        link: 'https://www.g-montagne.com/',
+        github: 'https://github.com/Onijjam/portfolio-web-v1',
+    },
 ];
 
 const Work = () => {
