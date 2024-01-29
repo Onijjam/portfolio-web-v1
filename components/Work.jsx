@@ -12,17 +12,17 @@ import {Swiper, SwiperSlide} from "swiper/react";
 
 const projectData = [
     {
+        image: '/work/2.png',
+        category: 'fullstack',
+        name: 'InsightEdu',
+        description: "SaaS pour un organisme de formation permettant une transition vers le numérique.",
+    },
+    {
         image: '/work/1.png',
         category: 'react js',
         name: 'Murkhasya',
         description: "Site vitrine pour une galerie d'art de Barcelone en partant d'un figma d'un designer.",
         link: 'https://www.murkhasya.com/',
-    },
-    {
-        image: '/work/2.png',
-        category: 'fullstack',
-        name: 'InsightEdu',
-        description: "SaaS pour un organisme de formation permettant une transition vers le numérique.",
     },
     {
         image: '/work/3.png',
@@ -31,6 +31,13 @@ const projectData = [
         description: "Réalisation de mon portfolio web afin de me former au framework NEXT JS.",
         link: 'https://www.g-montagne.com/',
         github: 'https://github.com/Onijjam/portfolio-web-v1',
+    },
+    {
+        image: '/work/4.png',
+        category: 'react js',
+        name: 'Web App IoT',
+        description: "Projet d'école sur le contrôle de plusieurs imprimantes 3D via une web app.",
+        github: 'https://github.com/Onijjam/iot-projet',
     },
 ];
 
