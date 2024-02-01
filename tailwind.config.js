@@ -88,7 +88,8 @@ module.exports = {
         work_project_bg_light: 'url(/work/project-bg-light.png)',
         work_project_bg_dark: 'url(/work/project-bg-dark.png)',
         contact_illustration_light: 'url(/contact/illustration-light.svg)',
-        contact_illustration_dark: 'url(/contact/illustration-dark.svg)'
+        contact_illustration_dark: 'url(/contact/illustration-dark.svg)',
+        not_found: 'url(https://doodleipsum.com/600x400/outline?i=e7365ae3c99ec86ae302a1599f80ade8)'
       }
     },
   },
