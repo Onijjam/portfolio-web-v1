@@ -30,7 +30,7 @@ const Contact = () => {
                     </div>
                     <div className={'flex items-center gap-x-8'}>
                         <HomeIcon size={18} className={'text-primary'}/>
-                        <div>79000 Niort</div>
+                        <div>33000 Bordeaux</div>
                     </div>
                     <div className={'flex items-center gap-x-8'}>
                         <PhoneCall size={18} className={'text-primary'}/>
