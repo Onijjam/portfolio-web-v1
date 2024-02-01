@@ -81,7 +81,7 @@ const skillData = [
                 name:'Développement Back-end',
             },
             {
-                name:'Javascript (React.js, Node/Bun), Python',
+                name:'Javascript (React, Node/Bun), Python',
             },
             {
                 name:'Frameworks',
@@ -140,7 +140,7 @@ const About = () => {
                                             Innovation et Expertise en Développement Web
                                         </h3>
                                         <p className={'subtitle max-w-xl max-auto xl:mx-0'}>
-                                            Je me spécialise dans les expériences utilisateurs captivantes, en développant des solutions web modernes et efficaces, avec un accent sur l'expérience utilisateur.
+                                            Je me spécialise dans les expériences utilisateurs captivantes, en développant des solutions web modernes et efficaces.
                                         </p>
                                         {/* icons */}
                                         <div className={'grid xl:grid-cols-2 gap-4 mb-12'}>
@@ -155,7 +155,7 @@ const About = () => {
                                         <div className={'flex flex-col gap-y-2'}>
                                             <div className={'text-primary'}>Compétences Linguistiques</div>
                                             <div className={'border-b border-border'}></div>
-                                            <div>Français (Langue Natal) et Anglais (Niveau C1)</div>
+                                            <div>Français (Langue Maternelle) et Anglais (Courant)</div>
                                         </div>
                                     </div>
                                 </TabsContent>
