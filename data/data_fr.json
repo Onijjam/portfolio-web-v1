@@ -1,0 +1,165 @@
+[
+  {
+    "qualityData": [
+      {
+        "icon": "<GanttChartSquare size={72} strokeWidth={0.8} />",
+        "title": "Organisé",
+        "description": "Je mise sur les méthodes agiles et Kanban, avec l'aide de Notion et Jira, pour gérer mes projets de façon organisée et efficace."
+      },
+      {
+        "icon": "<Sparkles size={72} strokeWidth={0.8} />",
+        "title": "Créatif",
+        "description": "Ma créativité s'épanouit en UX/UI et dans la création de scénarios pour jeux de rôle sur table, stimulant ainsi mon imagination."
+      },
+      {
+        "icon": "<Heart size={72} strokeWidth={0.8} />",
+        "title": "Passionné",
+        "description": "Ma passion pour le développement web et le design me permet de donner vie aux idées, transformant les projets en réalités."
+      }
+    ],
+    "projectData" : [
+      {
+        "image": "/work/2.png",
+        "category": "fullstack",
+        "name": "InsightEdu",
+        "description": "SaaS pour un organisme de formation permettant une transition vers le numérique."
+      },
+      {
+        "image": "/work/1.png",
+        "category": "react js",
+        "name": "Murkhasya",
+        "description": "Site vitrine pour une galerie d'art de Barcelone en partant d'un figma d'un designer.",
+        "link": "https://www.murkhasya.com/"
+      },
+      {
+        "image": "/work/3.png",
+        "category": "next js",
+        "name": "Portfolio",
+        "description": "Réalisation de mon portfolio web afin de me former au framework NEXT JS.",
+        "link": "https://www.g-montagne.com/",
+        "github": "https://github.com/Onijjam/portfolio-web-v1"
+      },
+      {
+        "image": "/work/4.png",
+        "category": "react js",
+        "name": "Web App IoT",
+        "description": "Projet d'école sur le contrôle de plusieurs imprimantes 3D via une web app.",
+        "github": "https://github.com/Onijjam/iot-projet"
+      }
+    ],
+    "infoData" : [
+      {
+        "icon": "<User2 size={20}/>",
+        "text": "Gauthier Montagne"
+      },
+      {
+        "icon": "<PhoneCall size={20}/>",
+        "text": "+33 6 51 64 78 87"
+      },
+      {
+        "icon": "<MailIcon size={20}/>",
+        "text": "gaut.montagne@gmail.com"
+      },
+      {
+        "icon": "<GraduationCap size={20}/>",
+        "text": "Diplôme d'Ingénieur du Numérique"
+      }
+    ],
+    "qualificationData" : [
+      {
+        "title": "éducation",
+        "data": [
+          {
+            "university": "Lycée Léonce Vieljeux",
+            "qualification": "BTS SN-IR",
+            "years": "2018 - 2020"
+          },
+          {
+            "university": "Lycée Léonce Vieljeux",
+            "qualification": "Classe préparatoire ATS",
+            "years": "2020-2021"
+          },
+          {
+            "university": "Junia ISEN Bordeaux",
+            "qualification": "Diplôme d'Ingénieur du Numérique",
+            "years": "2021 - 2024"
+          }
+        ]
+      },
+      {
+        "title": "expérience",
+        "data": [
+          {
+            "company": "MONTAGNE SARL",
+            "role": "Développeur Web - Stage",
+            "years": "Mai - Juin 2019"
+          },
+          {
+            "company": "Murkhasya Studio (Espagne)",
+            "role": "Développeur Web - Stage",
+            "years": "Juin - Août 2023"
+          },
+          {
+            "company": "MAIF",
+            "role": "Développeur Logiciel",
+            "years": "Sept. 2021 - Aujourd'hui"
+          }
+        ]
+      }
+    ],
+    "skillData": [
+      {
+        "title": "Compétences",
+        "data": [
+          {
+            "name": "Développement Front-end"
+          },
+          {
+            "name": "HTML, CSS"
+          },
+          {
+            "name": "Développement Back-end"
+          },
+          {
+            "name": "Javascript (React, Node/Bun), Python"
+          },
+          {
+            "name": "Frameworks"
+          },
+          {
+            "name": "Next.js, Tailwind CSS"
+          }
+        ]
+      },
+      {
+        "title": "Outils",
+        "data": [
+          {
+            "imgPath": "/about/jetbrains.svg"
+          },
+          {
+            "imgPath": "/about/notion.svg"
+          },
+          {
+            "imgPath": "/about/figma.svg"
+          }
+        ]
+      }
+    ],
+    "links" : [
+      { "path": "/", "name": "Accueil" },
+      { "path": "/projets", "name": "Mes Projets" },
+      { "path": "/contact", "name": "contact" }
+    ],
+    "icons" : [
+      {
+        "path": "https://github.com/Onijjam",
+        "name": "<RiGithubFill />"
+      },
+      {
+        "path": "https://www.linkedin.com/in/gauthiermontagne/",
+        "name": "<RiLinkedinFill />"
+      }
+    ]
+  }
+]
