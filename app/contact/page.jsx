@@ -4,7 +4,7 @@ import Form from "./../../components/Form"
 
 const Contact = () => {
     return (<section>
-        <div className={'container mx-auto'}>
+        <div className={'max-[1279px]:container max-[1319px]:!px-8 min-[1320px]:container mx-auto'}>
             {/* texte & illustrations*/}
             <div className={'grid xl:grid-cols-2 pt-12 xl:h-[480px] mb-6 xl:mb-24'}>
                 {/* texte */}

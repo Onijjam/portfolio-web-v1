@@ -44,9 +44,9 @@ const projectData = [
 const Work = () => {
     return (
         <section className={'relative mb-12 xl:mb-48'}>
-            <div className={'container mx-auto'}>
+            <div className={'max-[1279px]:container max-[1319px]:!px-8 min-[1320px]:container mx-auto'}>
                 {/*Text*/}
-                <div className={'max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center xl:items-start'}>
+                <div className={'max-[1279px]:max-w-[400px] max-[1319px]:max-w-[350px] min-[1320px]:max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center xl:items-start'}>
                     <h2 className={'section-title mb-4'}>Derniers Projets</h2>
                     <p className={'subtitle mb-8'}>
                         Pour se former il faut pratiquer régulièrement.
